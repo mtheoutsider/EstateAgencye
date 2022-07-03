@@ -1,0 +1,32 @@
+main{
+    padding: 7em 0;
+    .main-post{
+        margin: 30px 0;
+        h1{
+            font-weight: bold;
+            margin: 50px 0;
+            padding-left: 50px;
+            border-left: 4px solid #2ECA6A;
+        }
+    }
+}
+
+post{
+    display: block;
+    padding: 7em 0;
+    .post{
+        padding: 60px 0;
+        h3{
+            font-size: 40px;
+            font-weight: bold;
+            margin: 30px 0;
+
+
+        }
+        p{
+            font-size: 18px;
+
+        }
+    }
+}
+

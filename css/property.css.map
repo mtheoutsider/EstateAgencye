@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,QADI,CACJ,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,iBAAiB;EAC9B,YAAY,EAAE,IAAI;CAErB",
+    "sources": [
+        "property.scss"
+    ],
+    "names": [],
+    "file": "property.css"
+}

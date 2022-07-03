@@ -1,0 +1,360 @@
+nav.navbar .navbar-brand, nav.navbar .nav-item .nav-link, header .carousel .carousel-item span, OurServices span i, OurServices read, property card *, agents .agent .layover, news .post img, footer .item, footer .copy .des span:hover {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+}
+
+property h2, agents h2, news h2, footer h3 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 40px 0 70px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+nav.navbar {
+  background-color: #fff;
+  height: 90px;
+  border-bottom: 4px solid #2ECA6A;
+  z-index: 1;
+}
+
+nav.navbar .navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+nav.navbar .navbar-brand span {
+  color: #2ECA6A;
+}
+
+nav.navbar .navbar-brand:hover {
+  color: #2ECA6A;
+}
+
+nav.navbar .nav-item .nav-link {
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 11px;
+}
+
+nav.navbar .nav-item .nav-link:hover {
+  color: #2ECA6A;
+}
+
+nav.navbar .nav-item .active {
+  color: #2ECA6A !important;
+}
+
+header .carousel .carousel-item {
+  padding: 11em 5em;
+  color: #fff;
+}
+
+header .carousel .carousel-item p {
+  font-size: 22px;
+}
+
+header .carousel .carousel-item h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 40px 0;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+header .carousel .carousel-item span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 2px solid #2ECA6A;
+  border-radius: 35px;
+  padding: 15px;
+}
+
+header .carousel .carousel-item span:hover {
+  background-color: #2ECA6A;
+  border-color: #fff;
+  color: #656060;
+}
+
+header .carousel .slide-content {
+  padding: 0 5em;
+}
+
+header .carousel .carousel-item:nth-child(1) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#677a6e96)), url(../img/slider/slide-1.jpg);
+  background-image: linear-gradient(#677a6e96), url(../img/slider/slide-1.jpg);
+}
+
+header .carousel .carousel-item:nth-child(2) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#83c39c49)), url(../img/slider/slide-2.jpg);
+  background-image: linear-gradient(#83c39c49), url(../img/slider/slide-2.jpg);
+}
+
+header .carousel .carousel-item:nth-child(3) {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#83c39c49)), url(../img/slider/slide-3.jpg);
+  background-image: linear-gradient(#83c39c49), url(../img/slider/slide-3.jpg);
+}
+
+OurServices {
+  display: block;
+  padding: 7em 0;
+}
+
+OurServices .ser {
+  margin-bottom: 30px;
+}
+
+OurServices h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 40px 0 70px;
+}
+
+OurServices span {
+  font-size: 35px;
+  margin-left: 1em;
+}
+
+OurServices span i {
+  margin-right: 15px;
+}
+
+OurServices span i:hover {
+  color: #2ECA6A;
+}
+
+OurServices P {
+  font-size: 18px;
+  color: #585252;
+  margin: 18px 0;
+}
+
+OurServices read {
+  display: inline-block;
+  font-size: 18px;
+}
+
+OurServices read i {
+  margin-left: 10px;
+}
+
+OurServices read:hover {
+  color: #2ECA6A;
+}
+
+property {
+  display: block;
+  padding: 7em 0;
+}
+
+property card {
+  display: block;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+property card .layover {
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+}
+
+property card .layover h4 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+property card .layover span {
+  margin-left: 15px;
+  font-size: 20px;
+  border: 1px solid #2ECA6A;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+property card .layover span:hover {
+  border-color: #fff;
+  background-color: #2ECA6A;
+  color: #5b5757;
+}
+
+property card .layover .read {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+property card .details {
+  height: 60px;
+  background-color: #2ECA6A;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+property card .details .property {
+  color: #484444;
+}
+
+property card:hover .layover {
+  bottom: 0;
+}
+
+property card:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+agents {
+  display: block;
+  padding: 7em 0;
+}
+
+agents .agent {
+  position: relative;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+agents .agent img {
+  width: 100%;
+}
+
+agents .agent .layover {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: #2eca6aa5;
+  opacity: 0;
+}
+
+agents .agent .layover h3 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+agents .agent .layover p {
+  font-size: 20px;
+  color: #ddd;
+}
+
+agents .agent .layover .social {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  width: 85%;
+}
+
+agents .agent .layover .social i {
+  margin-left: 20px;
+}
+
+agents .agent:hover .layover {
+  opacity: 100%;
+}
+
+news {
+  display: block;
+  padding: 7em 0;
+}
+
+news .post {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  border: 2px solid #2ECA6A;
+}
+
+news .post .layover {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+news .post .layover span {
+  font-size: 18px;
+  color: #524f4f;
+  background-color: #2ECA6A;
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+news .post .layover h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 30px 0;
+}
+
+news .post .layover p {
+  color: #fff;
+}
+
+news .post:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  background-color: #F3F3F3;
+  border-top: 4px solid #2ECA6A;
+  padding: 7em 0;
+}
+
+footer h3 {
+  font-size: 25px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+footer .item {
+  margin: 10px 0;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+footer .item i {
+  margin-right: 10px;
+  color: #2ECA6A;
+}
+
+footer .item:hover {
+  color: #2ECA6A;
+}
+
+footer .copy {
+  text-align: center;
+  color: #383535a5;
+  border-top: 2px solid rgba(93, 89, 89, 0.301);
+  margin: 30px 0;
+  padding: 30px 0;
+}
+
+footer .copy p {
+  margin: 10px 0;
+}
+
+footer .copy p span {
+  color: #2ECA6A;
+}
+
+footer .copy .des span:hover {
+  color: #2ECA6A;
+}
+/*# sourceMappingURL=style.css.map */
